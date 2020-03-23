@@ -1,0 +1,16 @@
+{
+
+  "description": "Extention that allows you to go to Librus login page directly",
+  "manifest_version": 2,
+  "name": "librus_direct_login",
+  "version": "0.1",
+  "homepage_url": "https://github.com/Brychlikov/librus_direct_login",
+
+  "permissions": [
+    "webRequest", "webRequestBlocking", "https://portal.librus.pl/rodzina/synergia/loguj"
+  ],
+  
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
